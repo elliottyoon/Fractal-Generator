@@ -21,9 +21,9 @@ Shapes that can be drawn include:
     * `for (int i = 0; i < points.length; i++) { 
           System.out.println("(" + String.valueOf(points[i].getX()) + "," + String.valueOf(points[i].getY()) + ")");
     } `
-5. Call the your method from step 2 in the main method of `ShapeTester` to return the plotted points of your shape.
-6. Run the `ShapeTester.java` file.
-7. Copy paste the output points into a graphing calculator (Desmos is strongly recommended).
+3. Call the your method from step 2 in the main method of `ShapeTester` to return the plotted points of your shape.
+4. Run the `ShapeTester.java` file.
+5. Copy paste the output points into a graphing calculator (Desmos is strongly recommended).
 
 Enjoy!
 
