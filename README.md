@@ -18,4 +18,4 @@ Shapes that can be drawn include:
 
 Enjoy!
 
-![image](https://user-images.githubusercontent.com/33074434/128991955-f24975d1-697c-41e7-8b33-2bb3c8989845.png)
+![image](https://user-images.githubusercontent.com/33074434/128992036-90857315-862c-4dd9-a009-8e4c8e9df46d.png)
