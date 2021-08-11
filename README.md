@@ -16,9 +16,9 @@ Shapes that can be drawn include:
 **To use**:
 1. Open this repository in your working directory
 2. Create an instance of the `Shape` object of your liking in a new method of the `ShapeTester` file. Inside this method:
-* Manipulate the shape using the provided class methods if you wish to do so.
-* Create the array `Point[] points` whose elements are the output of your shape's `getPoints()` method. Iterate through each individual point with the following code:
-  * `for (int i = 0; i < points.length; i++) { 
+  * Manipulate the shape using the provided class methods if you wish to do so.
+  * Create the array `Point[] points` whose elements are the output of your shape's `getPoints()` method. Iterate through each individual point with the following code:
+    * `for (int i = 0; i < points.length; i++) { 
           System.out.println("(" + String.valueOf(points[i].getX()) + "," + String.valueOf(points[i].getY()) + ")");
     } `
 5. Call the your method from step 2 in the main method of `ShapeTester` to return the plotted points of your shape.
