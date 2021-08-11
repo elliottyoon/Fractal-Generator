@@ -1,0 +1,39 @@
+/**
+ * Elliott Yoon
+ *
+ * Class that represents a square
+ *
+ * Inherited fields:
+ * height
+ * width
+ * center
+ * points
+ * numSidesv
+ * 
+ * Inherited methods:
+ * setCenter
+ * getCenter
+ * getPoints
+ * getLines
+ * rotate
+ * getWidth
+ * setWidth
+ * getHeight
+ * setHeight
+ */
+
+public class Square extends Rectangle {
+
+
+    /**
+     * Constructor
+     *
+     * @param  center  the center of the square
+     * @param  length  the length of the sides of the square
+     */
+    public Square(Point center, double length) {
+        super(center, length, length);
+
+    }
+
+}

@@ -1,0 +1,34 @@
+/**
+ * Elliott Yoon
+ *
+ * Represents a shape
+ * 
+ * @author Elliott Yoon
+ */
+
+public class Shape {
+  
+  
+  // center of the polygon
+  private Point center;
+
+  // number of sides
+  private int numSides;
+
+  // length of each side
+  private double sideLength;
+
+  // array of the points 
+  private Point[] points;
+
+  // array of the sides of the polygon
+  private Line[] lines;
+  
+  
+  /**
+   * Constructor
+   */
+  public Shape() {
+    
+  }
+}

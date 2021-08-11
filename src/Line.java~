@@ -1,0 +1,26 @@
+/**
+ * Elliott Yoon
+ * 
+ * Represents an arbitrary line in 2D-space
+ * 
+ * @author Elliott Yoon
+ */
+
+public class Line {
+  
+  // the first endpoint of the line
+  private Point point1;
+  // the second endpoint of the line
+  private Point point2;
+  
+  /**
+   * Constructor
+   * 
+   * @param  point1  the first endpoint of the line
+   * @param  point2  the second endpoint of the line
+   */
+  public Line(Point point1, Point point2) {
+    this.point1 = point1;
+    this.point2 = point2;
+  }
+}
