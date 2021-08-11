@@ -26,3 +26,6 @@ Shapes that can be drawn include:
 7. Copy paste the output points into a graphing calculator (Desmos is strongly recommended).
 
 Enjoy!
+
+---
+Note: this repository supports JavaDoc and the raw HTML documentation files can be found in the `/doc` subfolder.
