@@ -8,11 +8,16 @@ Shapes that can be drawn include:
 * N-Gon (or Polygon)
 * Snowflake
 ---
+
+![image](https://user-images.githubusercontent.com/33074434/128992036-90857315-862c-4dd9-a009-8e4c8e9df46d.png)
+
+---
+
 **To use**:
 1. Open this repository in your working directory
 2. Create an instance of the `Shape` object of your liking in a new method of the `ShapeTester` file. Inside this method:
 * Manipulate the shape using the provided class methods if you wish to do so.
-* Create the array of `Point[] points` whose elements are the output of your shape's `getPoints()` method. Iterate through each individual point with the following code:
+* Create the array `Point[] points` whose elements are the output of your shape's `getPoints()` method. Iterate through each individual point with the following code:
   * `for (int i = 0; i < points.length; i++) { // plot this output in desmos
       System.out.println("(" + String.valueOf(points[i].getX()) + "," + String.valueOf(points[i].getY()) + ")");
     } `
@@ -21,5 +26,3 @@ Shapes that can be drawn include:
 7. Copy paste the output points into a graphing calculator (Desmos is strongly recommended).
 
 Enjoy!
-
-![image](https://user-images.githubusercontent.com/33074434/128992036-90857315-862c-4dd9-a009-8e4c8e9df46d.png)
